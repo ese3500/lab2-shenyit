@@ -23,4 +23,4 @@ The main function keeps track of the unsigned int light variable, and once this 
 
 We also check that if after a certain amount of time no button is pressed, we print out one space. This is done in the main function. First, we must account for overflow. If j + 40000 is greater than 62500, the maximum value that the timer goes up to, as we have prescaled the timer by the value of 256, then we reset TCNT1 to 0 and take away 62500 from j to prevent overflow. Then we check if j + 40000 is less than TCNT1. If it is, we set checkSpace to 1 to indicate that we have gone to a space, and we go to the “printLetter” function.
 
-https://drive.google.com/file/d/1OGzrTTeVRantLzTXKGBgsYJ843HIvQVm/view?usp=share_link  
+https://drive.google.com/file/d/1P3QgMHXoYqEVa79Ag3l1B47OC1zRVJUw/view?usp=share_link 
