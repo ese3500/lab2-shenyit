@@ -2,7 +2,7 @@
 #define BAUD_RATE 9600
 #define BAUD_PRESCALER (((F_CPU / (BAUD_RATE * 16UL))) - 1)
 
-/*--------------------Libraries---------------------------*/t
+/*--------------------Libraries---------------------------*/
 #include <stdio.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
